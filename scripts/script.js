@@ -50,6 +50,14 @@ function clickButton() {
                 inputE();
                 updateDisplay();
             } 
+            else if(buttons[i].classList.contains('log')) {
+                inputLog(displayValue);
+                updateDisplay();
+            } 
+            else if(buttons[i].classList.contains('squared')) {
+                inputSquared(displayValue);
+                updateDisplay();
+            } 
             else if(buttons[i].classList.contains('clear'))
                 clearDisplay();
                 updateDisplay();
@@ -203,4 +211,12 @@ function inputPi(){ // function to display pi on screen
 
 function inputE(){ // function to display e on screen
     displayValue = Math.E.toString();
+}
+
+function inputLog(num){
+    displayValue = Math.log10(num).toString();
+}
+
+function inputSquared(num){
+    displayValue = Math.pow(num, 2).toString();
 }
