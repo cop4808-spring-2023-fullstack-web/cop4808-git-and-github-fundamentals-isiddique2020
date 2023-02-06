@@ -42,8 +42,12 @@ function clickButton() {
                 inputSign(displayValue);
                 updateDisplay();
             } 
-            else if(buttons[i].classList.contains('pi')) {
+            else if(buttons[i].classList.contains('pi')) { // input pi and update display
                 inputPi();
+                updateDisplay();
+            } 
+            else if(buttons[i].classList.contains('e')) { // input e and update display
+                inputE();
                 updateDisplay();
             } 
             else if(buttons[i].classList.contains('clear'))
@@ -195,4 +199,8 @@ function roundAccurately(num, places) {
 
 function inputPi(){ // function to display pi on screen
     displayValue = Math.PI.toString();
+}
+
+function inputE(){ // function to display e on screen
+    displayValue = Math.E.toString();
 }
