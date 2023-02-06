@@ -108,3 +108,19 @@ button {
 .percent:active {
     background-color: rgb(123, 189, 255);
 }
+
+.pi {
+    background-color: rgb(119, 60, 201); /* background color of pi button */
+}
+
+.e {
+    background-color: rgb(119, 60, 201); /* background color of e button */
+}
+
+.log {
+    background-color: rgb(119, 60, 201); /* background color of log button */
+}
+
+.squared {
+    background-color: rgb(119, 60, 201); /* background color of squared button */
+}

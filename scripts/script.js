@@ -213,10 +213,10 @@ function inputE(){ // function to display e on screen
     displayValue = Math.E.toString();
 }
 
-function inputLog(num){
+function inputLog(num){ // function to display log on screen
     displayValue = Math.log10(num).toString();
 }
 
-function inputSquared(num){
+function inputSquared(num){ // function to display squared input on screen
     displayValue = Math.pow(num, 2).toString();
 }
